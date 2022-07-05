@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getWines } from './store/features/winesSlice'
 import { colorFilter } from './store/features/winesSlice'
 import WineCell from './components/WineCell'
+import Header from './components/Header'
 
 const App = () => {
   const wines = useSelector(state => state.wines)
@@ -18,7 +19,7 @@ const App = () => {
 
   return (
     <>
-      <div>hello</div>
+      <Header />
       {wines.map(wine => {
         return <WineCell wine={wine} key={wine.id} />
       })}
