@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Wrapper, Logo, Navbar, NavbarItem, Icons, Basket, Heart, Search } from './HeaderStyles'
-import { LOGO } from '../../data/styles'
+import { LOGO } from '../../data/constants'
 
 const Header: React.FC = () => {
   return (

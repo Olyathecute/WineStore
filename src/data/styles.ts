@@ -8,8 +8,6 @@ export const DarkRedColor = '#4F0106'
 export const FontLogo = 'Allison, cursive'
 export const FontText = 'Montserrat, sans-serif'
 
-export const LOGO = 'FullGlass'
-
 export const Button = styled.button`
   width: 80%;
   padding: 0.2rem;
