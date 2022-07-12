@@ -1,11 +1,8 @@
 import styled from 'styled-components'
-import { PinkColor, RedColor, DarkRedColor, FontText, Button, Cell } from '../../data/styles'
+import { PinkColor, RedColor, DarkRedColor, FontText, Button } from '../../data/styles'
 import { FiHeart } from 'react-icons/fi'
 import { FaHeart } from 'react-icons/fa'
 
-export const CellWine = styled(Cell)`
-  box-shadow: 0 3px 7px ${DarkRedColor};
-`
 export const Name = styled.div`
   font-family: ${FontText};
   font-weight: bold;
@@ -34,14 +31,23 @@ export const HeartFull = styled(FaHeart)`
 
 export const Img = styled.img`
   width: 20%;
+  height: 7rem;
 `
 
 export const Info = styled.div`
   width: 100%;
+  display: grid;
+  align-items: center;
+  grid-template-rows: minmax(1.5rem, auto) 1.5rem 1.5rem;
 `
 
 export const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`
+
+export const BuyButton = styled(Button)`
+  width: 80%;
+  padding: 0.2rem;
 `

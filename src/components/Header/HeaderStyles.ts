@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { PinkColor, RedColor, DarkRedColor, FontText, FontLogo, Button, Cell } from '../../data/styles'
 import { BsBasket } from 'react-icons/bs'
 import { FaHeart } from 'react-icons/fa'
@@ -19,6 +20,8 @@ export const Logo = styled.h1`
   font-weight: lighter;
   font-size: 3.2rem;
 `
+
+export const LinkStyled = styled(Link)``
 
 export const Navbar = styled.div`
   display: flex;
