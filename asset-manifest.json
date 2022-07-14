@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/WineStore/static/css/main.5c0aa1b7.css",
+    "main.js": "/WineStore/static/js/main.2ef10c6f.js",
+    "static/media/slick.svg": "/WineStore/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/WineStore/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/WineStore/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/WineStore/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/WineStore/index.html",
+    "main.5c0aa1b7.css.map": "/WineStore/static/css/main.5c0aa1b7.css.map",
+    "main.2ef10c6f.js.map": "/WineStore/static/js/main.2ef10c6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c0aa1b7.css",
+    "static/js/main.2ef10c6f.js"
+  ]
+}
