@@ -5,3 +5,7 @@ export const MAP =
 
 export const ADDRESS = 'Georgia, Kvareli, st. Chavchavadze, 55'
 export const WORKTIME = 'Opening hours: from 9:00 to 18:00, seven days a week'
+
+export const GLASS = '../WineStore/assets/mainGlass.png'
+export const BOTTLES = '../WineStore/assets/bottles.svg'
+export const GIFTCARD = '../WineStore/assets/giftCard.svg'

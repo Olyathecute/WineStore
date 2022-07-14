@@ -1,4 +1,5 @@
 import { Button } from '../../../data/styles'
+import { GLASS } from '../../../data/constants'
 import { Wrapper, LeftSide, Text, Img, GoShopButton } from './MainSectionStyles'
 
 const MainSection: React.FC = () => {
@@ -14,7 +15,7 @@ const MainSection: React.FC = () => {
         <GoShopButton>Shop wine</GoShopButton>
       </LeftSide>
 
-      <Img src="./assets/mainGlass.png" />
+      <Img src={GLASS} />
     </Wrapper>
   )
 }

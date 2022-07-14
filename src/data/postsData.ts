@@ -9,7 +9,7 @@ export const posts: Post[] = [
   {
     id: 1,
     name: 'Qvevri',
-    img: './assets/post1.png',
+    img: '../WineStore/assets/post1.png',
 
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae suscipit diam. Pellentesque purus velit, molestie ac est vitae, egestas euismod tortor. Nam tempor odio convallis elit ullamcorper, eu fermentum quam pulvinar. Etiam mattis ac sapien eu sodales. Suspendisse convallis ipsum vel elit imperdiet ultrices. Sed scelerisque finibus magna, ut malesuada magna tristique eget. Fusce in erat sit amet augue convallis consequat at at dui. Donec dapibus erat augue, varius convallis urna rutrum sit amet. Aliquam tempor augue vitae mi congue, sagittis ornare metus hendrerit. Maecenas nec eros sit amet felis lobortis mattis. Integer lacus sem, mollis eu sollicitudin id, luctus at odio. Donec scelerisque magna et odio venenatis convallis. Proin semper lacus ultricies congue imperdiet.
 		Maecenas sit amet sem tincidunt, pretium tellus at, ultrices dolor. Sed ut porta enim. Ut tempus suscipit blandit. Curabitur at lacus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum arcu est, vehicula at cursus at, dignissim a risus. Duis luctus vestibulum ipsum, et imperdiet nibh tincidunt eget. Donec vel lorem nec quam accumsan aliquam. Suspendisse iaculis facilisis facilisis. Curabitur a pulvinar dolor, non convallis nibh. Pellentesque consequat rutrum velit, sit amet sodales diam. Suspendisse vitae orci nec velit suscipit bibendum sit amet eu erat. Praesent auctor nibh libero, quis malesuada turpis varius a. Quisque porttitor nibh sed odio efficitur, et convallis mauris scelerisque. Proin ornare tortor arcu, a varius nibh vestibulum at. Duis sodales venenatis laoreet. Donec a mi vel est consequat scelerisque vitae et purus. Sed luctus arcu dictum mi iaculis consequat. Vivamus tellus purus, dapibus sed sapien in, lacinia interdum arcu. Ut non pharetra nisi.
@@ -21,7 +21,7 @@ export const posts: Post[] = [
   {
     id: 2,
     name: 'European technologies',
-    img: './assets/post2.png',
+    img: '../WineStore/assets/post2.png',
     text: `Praesent auctor nibh libero, quis malesuada turpis varius a. Quisque porttitor nibh sed odio efficitur, et convallis mauris scelerisque. Proin ornare tortor arcu, a varius nibh vestibulum at. Duis sodales venenatis laoreet. Donec a mi vel est consequat scelerisque vitae et purus. Sed luctus arcu dictum mi iaculis consequat. Vivamus tellus purus, dapibus sed sapien in, lacinia interdum arcu. Ut non pharetra nisi.
 
 		Duis vulputate nulla nec euismod vulputate. Praesent lorem nisl, ultricies ac nunc quis, porta ornare velit. Duis vehicula sagittis vehicula. Etiam lobortis ex nec egestas lacinia. Nulla sit amet tellus quis ex dapibus euismod in vitae risus. Duis quis blandit eros. Maecenas at turpis eu lectus lacinia pharetra vel eu tellus. Nunc dapibus pharetra risus, vitae dignissim ante luctus ut. Mauris vel odio id risus pulvinar pellentesque ac vel eros. In lacinia tristique ullamcorper.`
@@ -29,7 +29,7 @@ export const posts: Post[] = [
   {
     id: 3,
     name: 'Grape varieties',
-    img: './assets/post3.png',
+    img: '../WineStore/assets/post3.png',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae suscipit diam. Pellentesque purus velit, molestie ac est vitae, egestas euismod tortor. Nam tempor odio convallis elit ullamcorper, eu fermentum quam pulvinar. Etiam mattis ac sapien eu sodales. Suspendisse convallis ipsum vel elit imperdiet ultrices. Sed scelerisque finibus magna, ut malesuada magna tristique eget. Fusce in erat sit amet augue convallis consequat at at dui. Donec dapibus erat augue, varius convallis urna rutrum sit amet. Aliquam tempor augue vitae mi congue, sagittis ornare metus hendrerit. Maecenas nec eros sit amet felis lobortis mattis. Integer lacus sem, mollis eu sollicitudin id, luctus at odio. Donec scelerisque magna et odio venenatis convallis. Proin semper lacus ultricies congue imperdiet.
 
 		Maecenas sit amet sem tincidunt, pretium tellus at, ultrices dolor. Sed ut porta enim. Ut tempus suscipit blandit. Curabitur at lacus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum arcu est, vehicula at cursus at, dignissim a risus. Duis luctus vestibulum ipsum, et imperdiet nibh tincidunt eget. Donec vel lorem nec quam accumsan aliquam. Suspendisse iaculis facilisis facilisis. Curabitur a pulvinar dolor, non convallis nibh. Pellentesque consequat rutrum velit, sit amet sodales diam. Suspendisse vitae orci nec velit suscipit bibendum sit amet eu erat.
@@ -41,13 +41,13 @@ export const posts: Post[] = [
   {
     id: 4,
     name: 'Bottles',
-    img: './assets/post4.png',
+    img: '../WineStore/assets/post4.png',
     text: 'Maecenas sit amet sem tincidunt, pretium tellus at, ultrices dolor. Sed ut porta enim. Ut tempus suscipit blandit. Curabitur at lacus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum arcu est, vehicula at cursus at, dignissim a risus. Duis luctus vestibulum ipsum, et imperdiet nibh tincidunt eget. Donec vel lorem nec quam accumsan aliquam. Suspendisse iaculis facilisis facilisis. Curabitur a pulvinar dolor, non convallis nibh. Pellentesque consequat rutrum velit, sit amet sodales diam. Suspendisse vitae orci nec velit suscipit bibendum sit amet eu erat.'
   },
   {
     id: 5,
     name: 'People & Wine',
-    img: './assets/post5.png',
+    img: '../WineStore/assets/post5.png',
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae suscipit diam. Pellentesque purus velit, molestie ac est vitae, egestas euismod tortor. Nam tempor odio convallis elit ullamcorper, eu fermentum quam pulvinar. Etiam mattis ac sapien eu sodales. Suspendisse convallis ipsum vel elit imperdiet ultrices. Sed scelerisque finibus magna, ut malesuada magna tristique eget. Fusce in erat sit amet augue convallis consequat at at dui. Donec dapibus erat augue, varius convallis urna rutrum sit amet. Aliquam tempor augue vitae mi congue, sagittis ornare metus hendrerit. Maecenas nec eros sit amet felis lobortis mattis. Integer lacus sem, mollis eu sollicitudin id, luctus at odio. Donec scelerisque magna et odio venenatis convallis. Proin semper lacus ultricies congue imperdiet.
 
 		Maecenas sit amet sem tincidunt, pretium tellus at, ultrices dolor. Sed ut porta enim. Ut tempus suscipit blandit. Curabitur at lacus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum arcu est, vehicula at cursus at, dignissim a risus. Duis luctus vestibulum ipsum, et imperdiet nibh tincidunt eget. Donec vel lorem nec quam accumsan aliquam. Suspendisse iaculis facilisis facilisis. Curabitur a pulvinar dolor, non convallis nibh. Pellentesque consequat rutrum velit, sit amet sodales diam. Suspendisse vitae orci nec velit suscipit bibendum sit amet eu erat.

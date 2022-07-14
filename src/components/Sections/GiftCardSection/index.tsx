@@ -1,4 +1,6 @@
 import { Button } from '../../../data/styles'
+import { GIFTCARD } from '../../../data/constants'
+
 import { Wrapper, TextSide, ImgSide, Text, Text2, Img } from './GiftCardSectionStyles'
 
 const GiftCardSection: React.FC = () => {
@@ -12,7 +14,7 @@ const GiftCardSection: React.FC = () => {
       </TextSide>
 
       <ImgSide>
-        <Img src="./assets/giftCard.svg" />
+        <Img src={GIFTCARD} />
       </ImgSide>
     </Wrapper>
   )

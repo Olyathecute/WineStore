@@ -21,7 +21,7 @@ export const wines: Wine[] = [
     strength: '14%',
     country: 'Spain, La Mancha',
     producer: 'Bodegas Bastida',
-    img: './assets/1.png',
+    img: '../WineStore/assets/1.png',
     price: 20
   },
 
@@ -34,7 +34,7 @@ export const wines: Wine[] = [
     strength: '13%',
     country: 'Italy, Apulia',
     producer: 'Cantina Diomede',
-    img: './assets/2.png',
+    img: '../WineStore/assets/2.png',
     price: 32
   },
 
@@ -47,7 +47,7 @@ export const wines: Wine[] = [
     strength: '14%',
     country: 'Krym, Sevastopol',
     producer: 'Zolotaya Balka',
-    img: './assets/3.png',
+    img: '../WineStore/assets/3.png',
     price: 15
   },
 
@@ -60,7 +60,7 @@ export const wines: Wine[] = [
     strength: '10%',
     country: 'Italy, Veneto',
     producer: 'Cielo e Terra',
-    img: './assets/4.png',
+    img: '../WineStore/assets/4.png',
     price: 14
   },
 
@@ -73,7 +73,7 @@ export const wines: Wine[] = [
     strength: '11%',
     country: 'Portugal, Vinho Verde',
     producer: 'Casa Ermelinda Freitas',
-    img: './assets/5.png',
+    img: '../WineStore/assets/5.png',
     price: 25
   },
 
@@ -86,7 +86,7 @@ export const wines: Wine[] = [
     strength: '12%',
     country: 'Spain, Murcia, Jumilla',
     producer: 'Alceno',
-    img: './assets/6.png',
+    img: '../WineStore/assets/6.png',
     price: 21
   },
 
@@ -99,7 +99,7 @@ export const wines: Wine[] = [
     strength: '13%',
     country: 'Spain, Castile and Leon, Cigales',
     producer: 'Bodegas Protos',
-    img: './assets/7.png',
+    img: '../WineStore/assets/7.png',
     price: 30
   },
 
@@ -112,7 +112,7 @@ export const wines: Wine[] = [
     strength: '8.5%',
     country: 'Argentina, Mendoza',
     producer: 'Bodegas Bianchi',
-    img: './assets/8.png',
+    img: '../WineStore/assets/8.png',
     price: 19
   },
 
@@ -125,7 +125,7 @@ export const wines: Wine[] = [
     strength: '12%',
     country: 'Italy, Apulia',
     producer: 'Cantina Diomede',
-    img: './assets/9.png',
+    img: '../WineStore/assets/9.png',
     price: 17
   },
 
@@ -138,7 +138,7 @@ export const wines: Wine[] = [
     strength: '13.5%',
     country: 'Russia, Krasnodar region',
     producer: 'Kuban-Vino',
-    img: './assets/10.png',
+    img: '../WineStore/assets/10.png',
     price: 15
   },
 
@@ -151,7 +151,7 @@ export const wines: Wine[] = [
     strength: '13%',
     country: 'New Zealand, South Island, Nelson',
     producer: 'Alex Craighead',
-    img: './assets/11.png',
+    img: '../WineStore/assets/11.png',
     price: 46
   },
 
@@ -164,7 +164,7 @@ export const wines: Wine[] = [
     strength: '14%',
     country: 'Chile, Central Valley, Colchagua',
     producer: 'Siegel',
-    img: './assets/12.png',
+    img: '../WineStore/assets/12.png',
     price: 25
   }
 ]
