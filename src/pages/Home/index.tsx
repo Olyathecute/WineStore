@@ -1,8 +1,21 @@
-import React, { useState } from 'react'
-import {} from './HomeStyles'
+import Main from '../../components/Sections/Main'
+import BestSellers from '../../components/Sections/BestSellers'
+import Posts from '../../components/Sections/Posts'
+import GiftCard from '../../components/Sections/GiftCard'
+import Discount from '../../components/Sections/Discount'
+import Photo from '../../components/Sections/Photos'
 
 const Home: React.FC = () => {
-  return <div>Home</div>
+  return (
+    <>
+      <Main />
+      <BestSellers />
+      <Posts />
+      <Discount />
+      <GiftCard />
+      <Photo />
+    </>
+  )
 }
 
 export default Home

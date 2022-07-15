@@ -4,6 +4,7 @@ export const LightColor = '#FFF3F0'
 export const PinkColor = '#FFA79F'
 export const RedColor = '#7E2F2D'
 export const DarkRedColor = '#4F0106'
+export const MainGradient = 'linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 64%, rgba(240,203,200,1) 100%)'
 
 export const FontLogo = 'Allison, cursive'
 export const FontText = 'Montserrat, sans-serif'
@@ -40,8 +41,8 @@ export const Cell = styled.div`
     // cursor: pointer;
   }
 `
-export const Section = styled.div`
-  height: 70vh;
+export const Section = styled.section`
+  height: 80vh;
   width: 100%;
   padding: 3rem 4rem;
   box-sizing: border-box;

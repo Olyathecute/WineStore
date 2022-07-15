@@ -1,11 +1,12 @@
 import styled from 'styled-components'
-import { LightColor, PinkColor, DarkRedColor, FontText, Section, Button } from '../../../data/styles'
+import { LightColor, PinkColor, DarkRedColor, RedColor, FontText, Section, Button } from '../../../data/styles'
 
 export const Wrapper = styled(Section)`
   background-color: ${LightColor};
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
 `
 
 export const TextSide = styled.div`
@@ -41,4 +42,25 @@ export const Text2 = styled.h3`
 
 export const Img = styled.img`
   height: 15rem;
+`
+
+export const Waves = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(204% + 1.3px);
+    height: 93px;
+    transform: rotateY(180deg);
+  }
+
+  .fill {
+    fill: ${RedColor};
+  }
 `

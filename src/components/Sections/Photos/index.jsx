@@ -1,4 +1,4 @@
-import { Wrapper, Top, Title, Message, PhotosBlock } from './PhotoSectionStyles'
+import { Wrapper, Top, Title1, Title2, Message, PhotosBlock } from './PhotosStyles'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getPhotos } from '../../../store/features/photosSlice'
@@ -15,8 +15,8 @@ const PhotoSection = () => {
   return (
     <Wrapper>
       <Top>
-        <Title>Show your moments!</Title>
-        <Title>See our Instagram</Title>
+        <Title1>Show your moments!</Title1>
+        <Title2>See our Instagram</Title2>
       </Top>
 
       <PhotosBlock>

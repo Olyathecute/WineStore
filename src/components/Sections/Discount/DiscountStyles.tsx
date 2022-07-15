@@ -6,6 +6,7 @@ export const Wrapper = styled(Section)`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
 `
 export const TextSide = styled.div`
   width: 50%;
@@ -42,5 +43,48 @@ export const Text2 = styled.h3`
 `
 
 export const Img = styled.img`
-  height: 22rem;
+  height: 20rem;
+`
+
+export const WavesTop = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 104px;
+    transform: rotateY(180deg);
+  }
+
+  .fill {
+    fill: ${LightColor};
+  }
+`
+
+export const WavesBottom = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 99px;
+    transform: rotateY(180deg);
+  }
+
+  .fill {
+    fill: ${LightColor};
+  }
 `

@@ -1,10 +1,10 @@
-import { Wrapper, Text, PostsBlock } from './PostsSectionStyles'
+import { Wrapper, Text, PostsBlock, Svg } from './PostsStyles'
 import PostCell from '../../PostCell'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getPosts } from '../../../store/features/postsSlice'
 
-const PostsSection = () => {
+const Posts = () => {
   const dispatch = useDispatch()
   const posts = useSelector(state => state.posts)
 
@@ -24,4 +24,4 @@ const PostsSection = () => {
   )
 }
 
-export default PostsSection
+export default Posts
