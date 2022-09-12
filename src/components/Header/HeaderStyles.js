@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import { PinkColor, RedColor, DarkRedColor, FontText, FontLogo, Button, Cell } from '../../data/styles'
+import { NavLink } from 'react-router-dom'
+import { LightColor, PinkColor, RedColor, DarkRedColor, FontText, FontLogo, Button, Cell } from '../../data/styles'
 import { BsBasket } from 'react-icons/bs'
 import { FaHeart } from 'react-icons/fa'
 import { BsSearch } from 'react-icons/bs'
@@ -21,7 +21,14 @@ export const Logo = styled.h1`
   font-size: 3.2rem;
 `
 
-export const LinkStyled = styled(Link)``
+export const LinkStyled = styled(NavLink)`
+  text-decoration: none;
+  color: ${PinkColor};
+
+  &.${props => props.activeClassName} {
+    color: ${LightColor};
+  }
+`
 
 export const Navbar = styled.div`
   display: flex;
