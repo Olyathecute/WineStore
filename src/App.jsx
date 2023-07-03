@@ -20,9 +20,6 @@ const App = () => {
   return (
     <>
       <Header />
-
-      <button onClick={buttonClick}>Click</button>
-
       {/* 
       {posts.map(post => {
         return <PostCell post={post} key={post.id} />
