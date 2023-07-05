@@ -1,7 +1,12 @@
 import { Wrapper } from './PostsStyles'
 
 const Posts = () => {
-  return <Wrapper>Posts</Wrapper>
+  return (
+    <Wrapper>
+      <div></div>
+      About + Posts
+    </Wrapper>
+  )
 }
 
 export default Posts

@@ -1,8 +1,9 @@
+import { NavLink } from 'react-router-dom'
 import { Button } from '../../../data/styles'
 import { GLASS } from '../../../data/constants'
-import { Wrapper, LeftSide, Text, Img, GoShopButton, Waves } from './MainStyles'
+import { Wrapper, LeftSide, Text, Img, GoShopButton, Waves } from './BannerStyles'
 
-const MainSection: React.FC = () => {
+const BannerSection: React.FC = () => {
   return (
     <Wrapper>
       <LeftSide>
@@ -12,7 +13,9 @@ const MainSection: React.FC = () => {
         <Text>
           Make your day <span>better</span>
         </Text>
-        <GoShopButton>Shop wine</GoShopButton>
+        <GoShopButton>
+          <NavLink to="/wines">Shop wine</NavLink>
+        </GoShopButton>
       </LeftSide>
 
       <Img src={GLASS} />
@@ -33,4 +36,4 @@ const MainSection: React.FC = () => {
   )
 }
 
-export default MainSection
+export default BannerSection

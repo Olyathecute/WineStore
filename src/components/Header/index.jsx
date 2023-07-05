@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { Wrapper, Logo, Navbar, NavbarItem, Icons, Basket, Heart, Search, LinkStyled } from './HeaderStyles'
 import { LOGO } from '../../data/constants'
 
@@ -16,11 +15,6 @@ const Header = () => {
           </LinkStyled>
         </NavbarItem>
         <NavbarItem>
-          <LinkStyled to="/about" activeClassName="active" exact>
-            About
-          </LinkStyled>
-        </NavbarItem>
-        <NavbarItem>
           <LinkStyled to="/posts" activeClassName="active" exact>
             Posts
           </LinkStyled>
@@ -28,8 +22,12 @@ const Header = () => {
       </Navbar>
       <Icons>
         <Search />
-        <Heart />
-        <Basket />
+        <LinkStyled to="/favorites" activeClassName="active" exact>
+          <Heart />
+        </LinkStyled>
+        <LinkStyled to="/basket" activeClassName="active" exact>
+          <Basket />
+        </LinkStyled>
       </Icons>
     </Wrapper>
   )

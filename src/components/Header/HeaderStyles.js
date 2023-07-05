@@ -1,9 +1,15 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import { LightColor, PinkColor, RedColor, DarkRedColor, FontText, FontLogo, Button, Cell } from '../../data/styles'
 import { BsBasket } from 'react-icons/bs'
 import { FaHeart } from 'react-icons/fa'
 import { BsSearch } from 'react-icons/bs'
+
+const iconStyle = css`
+  margin: 0 0.5rem;
+  color: ${PinkColor};
+  font-size: 1.5rem;
+`
 
 export const Wrapper = styled.div`
   background-color: ${DarkRedColor};
@@ -51,17 +57,11 @@ export const Icons = styled.div`
 `
 
 export const Basket = styled(BsBasket)`
-  margin: 0 0.5rem;
-  color: ${PinkColor};
-  font-size: 1.5rem;
+  ${iconStyle}
 `
 export const Heart = styled(FaHeart)`
-  margin: 0 0.5rem;
-  color: ${PinkColor};
-  font-size: 1.5rem;
+  ${iconStyle}
 `
 export const Search = styled(BsSearch)`
-  margin: 0 0.5rem;
-  color: ${PinkColor};
-  font-size: 1.5rem;
+  ${iconStyle}
 `

@@ -1,5 +1,6 @@
+import { NavLink } from 'react-router-dom'
 import { Button } from '../../../data/styles'
-import { GIFTCARD } from '../../../data/constants'
+import { GIFT_CARD } from '../../../data/constants'
 import { Wrapper, TextSide, ImgSide, Text, Text2, Img, Waves } from './GiftCardStyles'
 
 const GiftCard: React.FC = () => {
@@ -9,11 +10,13 @@ const GiftCard: React.FC = () => {
         <Text>
           Gift card <p>A gift gard is the best decision for present!</p>
         </Text>
-        <Text2>Learn more</Text2>
+        <NavLink to="/giftCard">
+          <Text2>Learn more</Text2>
+        </NavLink>
       </TextSide>
 
       <ImgSide>
-        <Img src={GIFTCARD} />
+        <Img src={GIFT_CARD} />
       </ImgSide>
       <Waves>
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

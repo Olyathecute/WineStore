@@ -2,10 +2,14 @@ import { Routes, Route } from 'react-router-dom'
 import { colorFilter } from './store/features/winesSlice'
 import Header from './components/Header/index.jsx'
 import Footer from './components/Footer'
-import Home from './pages/Home'
+import Main from './pages/Main'
 import Wines from './pages/Wines'
-import About from './pages/About'
+import WinePage from './pages/WinePage'
 import Posts from './pages/Posts'
+import PostPage from './pages/PostPage'
+import Basket from './pages/Basket'
+import GiftCardPage from './pages/GiftCardPage'
+import WishList from './pages/WishList'
 
 const App = () => {
   // useEffect(() => {
@@ -24,18 +28,15 @@ const App = () => {
       {posts.map(post => {
         return <PostCell post={post} key={post.id} />
       })} */}
-      {/* <button onClick={filterTest}>filter</button> */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Main />} />
         <Route path="/wines" element={<Wines />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/wine/:id" element={<WinePage />} />
         <Route path="/posts" element={<Posts />} />
-        {/* <Route path="/wine/:id" element={} />
-        
-        <Route path='/post/:id' element={} />
-        <Route path='/giftCard' element={} />
-        <Route path='/basket' element={} />
-        <Route path='/favorite' element={} /> */}
+        <Route path="/post/:id" element={<PostPage />} />
+        <Route path="/giftCard" element={<GiftCardPage />} />
+        <Route path="/favorites" element={<WishList />} />
+        <Route path="/basket" element={<Basket />} />
       </Routes>
       <Footer />
     </>

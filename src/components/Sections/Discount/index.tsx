@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import { Button } from '../../../data/styles'
 import { BOTTLES } from '../../../data/constants'
 import { Wrapper, Text, Img, TextSide, ImgSide, WavesTop, WavesBottom } from './DiscountStyles'
@@ -35,7 +36,9 @@ const DiscountSection: React.FC = () => {
           25% DISCOUNT
           <p>for all wines of 2019</p>
         </Text>
-        <Button>Show wine</Button>
+        <Button>
+          <NavLink to="/wines">Show wine</NavLink>
+        </Button>
       </TextSide>
       <WavesBottom>
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

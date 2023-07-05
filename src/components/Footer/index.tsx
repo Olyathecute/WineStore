@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Wrapper, Column, List, ListItem, Title, Info, Map, Social, Section, MapSection, Text } from './FooterStyles'
 import { BsInstagram, BsTwitter, BsFacebook } from 'react-icons/bs'
-import { MAP, ADDRESS, WORKTIME } from '../../data/constants'
+import { MAP, ADDRESS, WORK_TIME } from '../../data/constants'
 
 const Footer: React.FC = () => {
   return (
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
       <MapSection>
         <Map src={MAP} />
         <Text>{ADDRESS}</Text>
-        <Text>{WORKTIME}</Text>
+        <Text>{WORK_TIME}</Text>
       </MapSection>
 
       <Social>
