@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import { PinkColor, RedColor, DarkRedColor, FontText, Button } from '../../data/styles'
+import { PinkColor, RedColor, DarkRedColor } from '../../styles/colors'
+import { Button } from '../../styles/elements'
+import { FontText } from '../../styles/fonts'
 import { FiHeart } from 'react-icons/fi'
 import { FaHeart } from 'react-icons/fa'
 

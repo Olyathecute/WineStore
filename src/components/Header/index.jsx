@@ -10,22 +10,22 @@ const Header = () => {
 
       <Navbar>
         <NavbarItem>
-          <LinkStyled to="/wines" activeClassName="active" exact>
+          <LinkStyled to="/wines" activeclassname="active" exact="true">
             Wines
           </LinkStyled>
         </NavbarItem>
         <NavbarItem>
-          <LinkStyled to="/posts" activeClassName="active" exact>
+          <LinkStyled to="/posts" activeclassname="active" exact="true">
             Posts
           </LinkStyled>
         </NavbarItem>
       </Navbar>
       <Icons>
         <Search />
-        <LinkStyled to="/favorites" activeClassName="active" exact>
+        <LinkStyled to="/favorites" activeclassname="active" exact="true">
           <Heart />
         </LinkStyled>
-        <LinkStyled to="/basket" activeClassName="active" exact>
+        <LinkStyled to="/basket" activeclassname="active" exact="true">
           <Basket />
         </LinkStyled>
       </Icons>

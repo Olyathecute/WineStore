@@ -1,6 +1,8 @@
 import styled, { css } from 'styled-components'
 import { NavLink } from 'react-router-dom'
-import { LightColor, PinkColor, RedColor, DarkRedColor, FontText, FontLogo, Button, Cell } from '../../data/styles'
+import { LightColor, PinkColor, RedColor, DarkRedColor } from '../../styles/colors'
+import { Button, Cell } from '../../styles/elements'
+import { FontText, FontLogo } from '../../styles/fonts'
 import { BsBasket } from 'react-icons/bs'
 import { FaHeart } from 'react-icons/fa'
 import { BsSearch } from 'react-icons/bs'
@@ -31,7 +33,7 @@ export const LinkStyled = styled(NavLink)`
   text-decoration: none;
   color: ${PinkColor};
 
-  &.${props => props.activeClassName} {
+  &.${props => props.activeclassname} {
     color: ${LightColor};
   }
 `

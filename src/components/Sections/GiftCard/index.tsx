@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Button } from '../../../data/styles'
+import { Button } from '../../../styles/elements'
 import { GIFT_CARD } from '../../../data/constants'
 import { Wrapper, TextSide, ImgSide, Text, Text2, Img, Waves } from './GiftCardStyles'
 

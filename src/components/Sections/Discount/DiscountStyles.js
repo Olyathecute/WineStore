@@ -1,14 +1,15 @@
 import styled from 'styled-components'
-import { LightColor, PinkColor, DarkRedColor, RedColor, FontText, Section, Button } from '../../../data/styles'
+import { LightColor, PinkColor, DarkRedColor } from '../../../styles/colors'
+import { Section, Button } from '../../../styles/elements'
+import { FontText, FontLogo } from '../../../styles/fonts'
 
 export const Wrapper = styled(Section)`
-  background-color: ${LightColor};
+  background-color: ${PinkColor};
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
 `
-
 export const TextSide = styled.div`
   width: 50%;
 `
@@ -17,13 +18,16 @@ export const ImgSide = styled.div`
   width: 50%;
   text-align: center;
 `
-
 export const Text = styled.h1`
   font-size: 3rem;
   font-family: ${FontText};
   color: ${DarkRedColor};
   margin: 0;
-  max-width: 80%;
+
+  div p {
+    font-family: ${FontLogo};
+    font-size: 3rem;
+  }
 
   p {
     font-size: 1.5rem;
@@ -41,12 +45,12 @@ export const Text2 = styled.h3`
 `
 
 export const Img = styled.img`
-  height: 15rem;
+  height: 20rem;
 `
 
-export const Waves = styled.div`
+export const WavesTop = styled.div`
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -55,12 +59,34 @@ export const Waves = styled.div`
   svg {
     position: relative;
     display: block;
-    width: calc(204% + 1.3px);
-    height: 93px;
+    width: calc(102% + 1.3px);
+    height: 104px;
     transform: rotateY(180deg);
   }
 
   .fill {
-    fill: ${RedColor};
+    fill: ${LightColor};
+  }
+`
+
+export const WavesBottom = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+
+  svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 99px;
+    transform: rotateY(180deg);
+  }
+
+  .fill {
+    fill: ${LightColor};
   }
 `

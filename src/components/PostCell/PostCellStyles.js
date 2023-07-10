@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { PinkColor, FontText } from '../../data/styles'
+import { PinkColor } from '../../styles/colors'
+import { FontText } from '../../styles/fonts'
 
 export const Name = styled.div`
   font-family: ${FontText};

@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import { LightColor, RedColor, DarkRedColor, FontText, Section } from '../../../data/styles'
+import { LightColor, RedColor, DarkRedColor } from '../../../styles/colors'
+import { Section } from '../../../styles/elements'
+import { FontText } from '../../../styles/fonts'
 
 export const Wrapper = styled(Section)`
   background-color: ${LightColor};

@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Button } from '../../../data/styles'
+import { Button } from '../../../styles/elements'
 import { GLASS } from '../../../data/constants'
 import { Wrapper, LeftSide, Text, Img, GoShopButton, Waves } from './BannerStyles'
 

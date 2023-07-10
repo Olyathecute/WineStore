@@ -1,4 +1,4 @@
-const GiftCardPage: React.FC = () => {
+const GiftCardPage = () => {
   return <>GiftCard</>
 }
 

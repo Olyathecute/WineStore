@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Name, Price, Img, Info, Bottom, HeartFull, HeartEmpty, BuyButton } from './WineCellStyles'
-import { Cell } from '../../data/styles'
+import { Cell } from '../../styles/elements'
 
 interface Props {
   id: number

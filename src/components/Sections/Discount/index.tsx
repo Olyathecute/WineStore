@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Button } from '../../../data/styles'
+import { Button } from '../../../styles/elements'
 import { BOTTLES } from '../../../data/constants'
 import { Wrapper, Text, Img, TextSide, ImgSide, WavesTop, WavesBottom } from './DiscountStyles'
 

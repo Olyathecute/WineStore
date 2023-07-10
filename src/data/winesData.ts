@@ -5,12 +5,14 @@ interface Wine {
   color: string
   taste: string
   strength: string
+  size: string
   country: string
   producer: string
   img: string
   price: number
 }
 
+// add other products and size
 export const wines: Wine[] = [
   {
     id: 1,
@@ -19,6 +21,7 @@ export const wines: Wine[] = [
     color: 'red',
     taste: 'dry',
     strength: '14%',
+    size: '0.75',
     country: 'Spain, La Mancha',
     producer: 'Bodegas Bastida',
     img: '../WineStore/assets/1.png',
@@ -32,6 +35,7 @@ export const wines: Wine[] = [
     color: 'red',
     taste: 'dry',
     strength: '13%',
+    size: '0.75',
     country: 'Italy, Apulia',
     producer: 'Cantina Diomede',
     img: '../WineStore/assets/2.png',
@@ -45,6 +49,7 @@ export const wines: Wine[] = [
     color: 'red',
     taste: 'semi-sweet',
     strength: '14%',
+    size: '0.75',
     country: 'Krym, Sevastopol',
     producer: 'Zolotaya Balka',
     img: '../WineStore/assets/3.png',
@@ -58,6 +63,8 @@ export const wines: Wine[] = [
     color: 'white',
     taste: 'semi-sweet',
     strength: '10%',
+    size: '0.75',
+
     country: 'Italy, Veneto',
     producer: 'Cielo e Terra',
     img: '../WineStore/assets/4.png',
@@ -71,6 +78,7 @@ export const wines: Wine[] = [
     color: 'white',
     taste: 'demi',
     strength: '11%',
+    size: '0.75',
     country: 'Portugal, Vinho Verde',
     producer: 'Casa Ermelinda Freitas',
     img: '../WineStore/assets/5.png',
@@ -84,6 +92,7 @@ export const wines: Wine[] = [
     color: 'white',
     taste: 'dry',
     strength: '12%',
+    size: '0.75',
     country: 'Spain, Murcia, Jumilla',
     producer: 'Alceno',
     img: '../WineStore/assets/6.png',
@@ -97,6 +106,7 @@ export const wines: Wine[] = [
     color: 'rose',
     taste: 'dry',
     strength: '13%',
+    size: '0.75',
     country: 'Spain, Castile and Leon, Cigales',
     producer: 'Bodegas Protos',
     img: '../WineStore/assets/7.png',
@@ -110,6 +120,7 @@ export const wines: Wine[] = [
     color: 'rose',
     taste: 'sweet',
     strength: '8.5%',
+    size: '0.8',
     country: 'Argentina, Mendoza',
     producer: 'Bodegas Bianchi',
     img: '../WineStore/assets/8.png',
@@ -123,6 +134,7 @@ export const wines: Wine[] = [
     color: 'rose',
     taste: 'dry',
     strength: '12%',
+    size: '0.75',
     country: 'Italy, Apulia',
     producer: 'Cantina Diomede',
     img: '../WineStore/assets/9.png',
@@ -136,6 +148,7 @@ export const wines: Wine[] = [
     color: 'orange',
     taste: 'demi',
     strength: '13.5%',
+    size: '0.75',
     country: 'Russia, Krasnodar region',
     producer: 'Kuban-Vino',
     img: '../WineStore/assets/10.png',
@@ -149,6 +162,7 @@ export const wines: Wine[] = [
     color: 'orange',
     taste: 'dry',
     strength: '13%',
+    size: '0.75',
     country: 'New Zealand, South Island, Nelson',
     producer: 'Alex Craighead',
     img: '../WineStore/assets/11.png',
@@ -162,6 +176,7 @@ export const wines: Wine[] = [
     color: 'orange',
     taste: 'dry',
     strength: '14%',
+    size: '0.85',
     country: 'Chile, Central Valley, Colchagua',
     producer: 'Siegel',
     img: '../WineStore/assets/12.png',

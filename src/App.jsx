@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { colorFilter } from './store/features/winesSlice'
-import Header from './components/Header/index.jsx'
+import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './pages/Main'
 import Wines from './pages/Wines'

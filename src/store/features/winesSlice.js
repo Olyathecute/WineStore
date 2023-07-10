@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { getAllWines } from '../../data/interface'
+import { getAllWines } from '../../data/interface.ts'
 
 export const getWines = createAsyncThunk('wines/getWines', async (_, { rejectWithValue, dispatch }) => {
   const wines = await getAllWines()

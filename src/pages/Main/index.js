@@ -5,7 +5,7 @@ import GiftCard from '../../components/Sections/GiftCard'
 import Discount from '../../components/Sections/Discount'
 import Photo from '../../components/Sections/Photos'
 
-const Main: React.FC = () => {
+const Main = () => {
   return (
     <>
       <Banner />

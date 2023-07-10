@@ -1,5 +1,5 @@
 import { Name, Img } from './PostCellStyles'
-import { Cell } from '../../data/styles'
+import { Cell } from '../../styles/elements'
 
 interface Post {
   id: number

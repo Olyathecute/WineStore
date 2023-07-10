@@ -1,13 +1,15 @@
 import styled from 'styled-components'
+import { LightColor, PinkColor, RedColor, DarkRedColor, MainGradient } from './colors'
+import { FontLogo, FontText } from './fonts'
 
-export const LightColor = '#FFF3F0'
-export const PinkColor = '#FFA79F'
-export const RedColor = '#7E2F2D'
-export const DarkRedColor = '#4F0106'
-export const MainGradient = 'linear-gradient(90deg, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 64%, rgba(240,203,200,1) 100%)'
-
-export const FontLogo = 'Allison, cursive'
-export const FontText = 'Montserrat, sans-serif'
+export const LayoutContainer = styled.div`
+  background-color: ${LightColor};
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: calc(100vh - 20rem);
+`
 
 export const Button = styled.button`
   background-color: ${PinkColor};
@@ -47,3 +49,19 @@ export const Section = styled.section`
   padding: 3rem 4rem;
   box-sizing: border-box;
 `
+
+// export const MainText = styled.h1`
+//   font-size: 3rem;
+//   font-family: ${FontText};
+// `
+
+// export const SmallText = styled.p`
+//   font-size: 1rem;
+//   font-family: ${FontText};
+// `
+
+// export const ItalicText = styled.p`
+//   font-size: 3rem;
+//   font-family: ${FontText};
+
+// `

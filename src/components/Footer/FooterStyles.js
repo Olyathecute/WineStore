@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { LightColor, RedColor, DarkRedColor, FontText } from '../../data/styles'
+import { LightColor, RedColor, DarkRedColor } from '../../styles/colors'
+import { FontText } from '../../styles/fonts'
 
 export const Wrapper = styled.div`
   background-color: ${LightColor};

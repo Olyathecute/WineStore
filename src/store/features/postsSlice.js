@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { getAllPosts } from '../../data/interface'
+import { getAllPosts } from '../../data/interface.ts'
 
 export const getPosts = createAsyncThunk('posts/getPosts', async (_, { rejectWithValue, dispatch }) => {
   const posts = await getAllPosts()
