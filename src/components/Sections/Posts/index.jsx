@@ -3,6 +3,11 @@ import PostCell from '../../PostCell'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getPosts } from '../../../store/features/postsSlice'
+import { Title } from '../../../styles/elements'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const Posts = () => {
   const dispatch = useDispatch()
@@ -14,7 +19,7 @@ const Posts = () => {
 
   return (
     <Wrapper>
-      <Text>Learn more about wine</Text>
+      <Title>{l10n.posts.title}</Title>
       <PostsBlock>
         {posts.map(post => (
           <PostCell key={post.id} post={post} />

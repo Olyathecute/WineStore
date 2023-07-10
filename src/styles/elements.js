@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { LightColor, PinkColor, RedColor, DarkRedColor, MainGradient } from './colors'
 import { FontLogo, FontText } from './fonts'
 
@@ -50,18 +50,26 @@ export const Section = styled.section`
   box-sizing: border-box;
 `
 
-// export const MainText = styled.h1`
-//   font-size: 3rem;
-//   font-family: ${FontText};
-// `
+const fontStyle = css`
+  font-family: ${FontText};
+  color: ${props => (props.$light ? PinkColor : DarkRedColor)};
+`
 
-// export const SmallText = styled.p`
-//   font-size: 1rem;
-//   font-family: ${FontText};
-// `
+export const Title = styled.h1`
+  font-size: 46px;
+  ${fontStyle}
+`
 
-// export const ItalicText = styled.p`
-//   font-size: 3rem;
-//   font-family: ${FontText};
+export const SubTitle = styled.h3`
+  font-size: 26px;
+  ${fontStyle}
+`
 
-// `
+export const SubTitleSmall = styled.h5`
+  font-size: 20px;
+  ${fontStyle}
+`
+
+export const Text = styled.p`
+  ${fontStyle}
+`

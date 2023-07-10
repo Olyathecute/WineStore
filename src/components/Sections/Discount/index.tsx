@@ -2,6 +2,10 @@ import { NavLink } from 'react-router-dom'
 import { Button } from '../../../styles/elements'
 import { BOTTLES } from '../../../data/constants'
 import { Wrapper, Text, Img, TextSide, ImgSide, WavesTop, WavesBottom } from './DiscountStyles'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const DiscountSection: React.FC = () => {
   return (
@@ -31,10 +35,10 @@ const DiscountSection: React.FC = () => {
       <TextSide>
         <Text>
           <div>
-            <p>Special Summer Offer</p>
+            <p>{l10n.discount.title1}</p>
           </div>
-          25% DISCOUNT
-          <p>for all wines of 2019</p>
+          {l10n.discount.title2}
+          <p>{l10n.discount.title3}</p>
         </Text>
         <Button>
           <NavLink to="/wines">Show wine</NavLink>

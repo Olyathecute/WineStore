@@ -1,4 +1,5 @@
-import { Wrapper, ItemWrapper, WineInfo, Image, Title, Price, Description } from './OrderItemStyles'
+import { Wrapper, ItemWrapper, WineInfo, Image, Description, SubTitle2 } from './OrderItemStyles'
+import { SubTitleSmall } from '../../styles/elements'
 import Counter from '../Counter'
 
 const upperFirst = word => word[0].toUpperCase() + word.slice(1)
@@ -14,13 +15,12 @@ const Item = ({ data }) => {
         <ItemWrapper>
           <Image src={img} />
           <WineInfo>
-            <Title>{name}</Title>
+            <SubTitle2>{name}</SubTitle2>
             <Description>{description}</Description>
           </WineInfo>
         </ItemWrapper>
-
         <Counter currentValue={1} />
-        <Price>{price}$</Price>
+        <SubTitleSmall>${price}</SubTitleSmall>
       </Wrapper>
     </>
   )

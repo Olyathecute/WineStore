@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { MainGradient, LightColor, PinkColor, RedColor } from '../../../styles/colors'
-import { Section } from '../../../styles/elements'
+import { Section, Title as ElementsTitle } from '../../../styles/elements'
 import { FontText } from '../../../styles/fonts'
 
 export const Wrapper = styled(Section)`
@@ -9,12 +9,6 @@ export const Wrapper = styled(Section)`
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-`
-export const Text = styled.h1`
-  margin: 0;
-  font-family: ${FontText};
-  font-size: 3rem;
-  color: ${PinkColor};
 `
 
 export const WavesBottom = styled.div`

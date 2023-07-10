@@ -1,17 +1,20 @@
 import { NavLink } from 'react-router-dom'
-import { Button } from '../../../styles/elements'
+import { Button, Title, SubTitleSmall } from '../../../styles/elements'
 import { GIFT_CARD } from '../../../data/constants'
-import { Wrapper, TextSide, ImgSide, Text, Text2, Img, Waves } from './GiftCardStyles'
+import { Wrapper, TextSide, ImgSide, Img, Waves } from './GiftCardStyles'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const GiftCard: React.FC = () => {
   return (
     <Wrapper>
       <TextSide>
-        <Text>
-          Gift card <p>A gift gard is the best decision for present!</p>
-        </Text>
+        <Title>{l10n.giftCard.title}</Title>
+        <SubTitleSmall>{l10n.giftCard.text}</SubTitleSmall>
         <NavLink to="/giftCard">
-          <Text2>Learn more</Text2>
+          <SubTitleSmall>Learn more</SubTitleSmall>
         </NavLink>
       </TextSide>
 

@@ -1,7 +1,10 @@
 import { NavLink } from 'react-router-dom'
-import { Button } from '../../../styles/elements'
 import { GLASS } from '../../../data/constants'
-import { Wrapper, LeftSide, Text, Img, GoShopButton, Waves } from './BannerStyles'
+import { Wrapper, LeftSide, BannerTitle, Img, GoShopButton, Waves } from './BannerStyles'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const BannerSection: React.FC = () => {
   return (
@@ -10,9 +13,10 @@ const BannerSection: React.FC = () => {
         <div></div>
         <div></div>
 
-        <Text>
-          Make your day <span>better</span>
-        </Text>
+        <BannerTitle>
+          {l10n.banner.title1}
+          <p>{l10n.banner.title2}</p>
+        </BannerTitle>
         <GoShopButton>
           <NavLink to="/wines">Shop wine</NavLink>
         </GoShopButton>

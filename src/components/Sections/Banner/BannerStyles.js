@@ -1,7 +1,6 @@
 import styled from 'styled-components'
-import { Section, Button } from '../../../styles/elements'
-import { MainGradient, PinkColor, DarkRedColor } from '../../../styles/colors'
-import { FontText } from '../../../styles/fonts'
+import { Section, Button, Title } from '../../../styles/elements'
+import { MainGradient, DarkRedColor } from '../../../styles/colors'
 
 export const Wrapper = styled(Section)`
   background: ${MainGradient};
@@ -17,14 +16,12 @@ export const LeftSide = styled.div`
   align-items: center;
 `
 
-export const Text = styled.h1`
-  font-size: 3rem;
-  font-family: ${FontText};
-  color: ${PinkColor};
+export const BannerTitle = styled(Title)`
   margin: 0;
 
-  span {
+  p {
     color: ${DarkRedColor};
+    margin: 0;
   }
 `
 

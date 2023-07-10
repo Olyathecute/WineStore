@@ -10,12 +10,6 @@ export const Wrapper = styled(Section)`
   justify-content: space-around;
   position: relative;
 `
-export const Text = styled.h1`
-  font-size: 3rem;
-  font-family: ${FontText};
-  color: ${DarkRedColor};
-  margin: 0;
-`
 
 export const PostsBlock = styled.div`
   display: flex;

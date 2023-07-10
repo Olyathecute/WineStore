@@ -1,8 +1,13 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getWines } from '../../../store/features/winesSlice'
-import { Wrapper, Text, WavesBottom, WavesTop } from './BestSellersStyles'
+import { Wrapper, WavesBottom, WavesTop } from './BestSellersStyles'
+import { Title } from '../../../styles/elements'
 import Carousel from '../../Carousel'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const BestSellers = () => {
   const dispatch = useDispatch()
@@ -38,7 +43,7 @@ const BestSellers = () => {
           ></path>
         </svg>
       </WavesTop>
-      <Text>Best Sellers</Text>
+      <Title $light>{l10n.bestSellers.title}</Title>
       <Carousel wines={bestSellers} />
       <WavesBottom>
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

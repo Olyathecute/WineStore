@@ -1,8 +1,13 @@
-import { Wrapper, Top, Title1, Title2, Message, PhotosBlock } from './PhotosStyles'
+import { Wrapper, Top, PhotosBlock } from './PhotosStyles'
 import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getPhotos } from '../../../store/features/photosSlice'
 import PhotoCell from '../../PhotoCell'
+import { Title, SubTitle } from '../../../styles/elements'
+import LocalizedStrings from 'react-localization'
+import l10nResources from '../Sections.l10n'
+
+const l10n = new LocalizedStrings(l10nResources)
 
 const PhotoSection = () => {
   const dispatch = useDispatch()
@@ -15,8 +20,8 @@ const PhotoSection = () => {
   return (
     <Wrapper>
       <Top>
-        <Title1>Show your moments!</Title1>
-        <Title2>See our Instagram</Title2>
+        <Title $light>{l10n.photos.title1}</Title>
+        <SubTitle $light>{l10n.photos.title2}</SubTitle>
       </Top>
 
       <PhotosBlock>
@@ -24,7 +29,7 @@ const PhotoSection = () => {
           <PhotoCell key={photo.id} photo={photo} />
         ))}
       </PhotosBlock>
-      <Message>Share your photo with #FullGlass</Message>
+      <SubTitle $light>{l10n.photos.subTitle}</SubTitle>
     </Wrapper>
   )
 }
