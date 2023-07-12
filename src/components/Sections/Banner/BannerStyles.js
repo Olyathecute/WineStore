@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Section, Button, Title } from '../../../styles/elements'
-import { MainGradient, DarkRedColor } from '../../../styles/colors'
+import { MainGradient, DarkRedColor, PinkColor } from '../../../styles/colors'
 
 export const Wrapper = styled(Section)`
   background: ${MainGradient};
@@ -17,6 +17,7 @@ export const LeftSide = styled.div`
 `
 
 export const BannerTitle = styled(Title)`
+  color: ${PinkColor};
   margin: 0;
 
   p {

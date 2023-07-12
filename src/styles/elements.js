@@ -50,6 +50,15 @@ export const Section = styled.section`
   box-sizing: border-box;
 `
 
+export const Image = styled.img.attrs(({ src }) => ({
+  src: src
+}))`
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`
+
 const fontStyle = css`
   font-family: ${FontText};
   color: ${props => (props.$light ? PinkColor : DarkRedColor)};
